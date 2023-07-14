@@ -117,7 +117,7 @@ export const Comment = ({
         </div>
         <div className={styles.thumb}>
           <ThumbsUp
-            color={isLiked ? "#00B37E" : "#c4c4cc"}
+            color={isLiked ? "#0077b3" : "#c4c4cc"}
             style={{ marginRight: 5 }}
             size={20}
             onClick={() => handleLike()}

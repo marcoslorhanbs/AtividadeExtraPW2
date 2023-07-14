@@ -35,7 +35,7 @@ export function Post({
     const regex = /#(\w+)/g;
     const textoFormatado = texto.replace(
       regex,
-      '<a href="#" style="color: #00B37E;"> <strong>$&</strong></a>'
+      '<a href="#" style="color: #0077b3;"> <strong>$&</strong></a>'
     );
 
     return <div dangerouslySetInnerHTML={{ __html: textoFormatado }} />;
